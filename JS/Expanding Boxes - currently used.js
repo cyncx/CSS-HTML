@@ -2,18 +2,18 @@
 
 <div class="expand-box">
      <h1>
-	{{title}}
+	{/* {title} */}
      </h1>
 
      <div class="expand-text">
-	{{content}}
+	{/* {content} */}
      </div>
 
      <div class="rmbtn">
-	{{button text}}
+	{/* {button text} */}
      </div>
      <div class="rlbtn">
-	{{button text}}
+	{/* {button text} */}
      </div>
 </div>
 

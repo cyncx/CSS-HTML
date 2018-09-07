@@ -1,4 +1,3 @@
-<script>
 //add to end body
 function clean(node){for(var n = 0; n < node.childNodes.length; n ++)
 {var child = node.childNodes[n];
@@ -10,4 +9,3 @@ function clean(node){for(var n = 0; n < node.childNodes.length; n ++)
   }
 }
 clean(document.body);
-</script>

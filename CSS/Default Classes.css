@@ -82,12 +82,43 @@
 }
 
 /*=======LOGO========*/
+.logoarea {
+	width: 100%;
+	background-color: #fff;
+	height: 0;
+}
+div#logo, div.logo {
+	width: 100%;
+	height: 0;
+}
 
 /*=======MENU========*/
-
+.menuarea, #menu {
+	width: 100%;
+	height: auto;
+}
+#menu ul li.menuitem {
+	width: auto !important;
+}
+a.menulink, a.menulink:link, a.menulink:active, a.menulink:visited {
+	height: auto;
+	line-height: 1.5;
+}
+.sf-menu ul {
+  top: 100% !important;
+  width: auto;
+}
+.sf-menu .submenuitem li {
+  width: auto;
+}
+.sf-menu .submenuitem li a {
+  width: auto;
+}
 /*=======CONTENT========*/
+
+/*------ General ------*/
 .pagebody {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 h1 {
   font-size: 36px;
@@ -124,21 +155,63 @@ p {
 	color: #000;
 }
 
+/*------ Scrollers ------*/
+#scroller_956 {
+	width: 100%;
+	height: 400px; 
+	background-color: transparent;
+	border: none;
+}
+.scrollermessage {
+	width: inherit !important;
+	height: inherit !important;
+	background: inherit;
+}
+
+/*------ Buttons ------*/
+a.button {
+	padding: 0.7em 2em;
+	display: inline-block;
+}
+
+/*------ Parallax ------*/
+.parallax-wrap {
+	height: 100%;
+	position: relative;
+}
+.parallax-bg {
+	background: none 50% 50%/cover no-repeat fixed;
+	width: 100%;
+	height: inherit;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+/*------ Background-color panels ------*/
+
+
+
 /*=======FOOTER========*/
 
 
 /*=======MEDIA QUERIES MUST BE AT END========*/
-/* Extra small devices (phones, 576px and up) */
-@media only screen and (min-width: 576px) {...}
+/* Extra large devices (large laptops and desktops, 1200px and below) */
+@media only screen and (max-width: 1200px) {
+	.sidr {
+		box-shadow: none;
+		background-color: #333;
+	}
+} 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+/* Large devices (laptops/desktops, 992px and below) */
+@media only screen and (max-width: 992px) {...}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+/* Medium devices (landscape tablets, 768px and below) */
+@media only screen and (max-width: 768px) {...}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...} 
+/* Extra small devices (phones, 576px and below) */
+@media only screen and (max-width: 576px) {...}
 
 
 /* IE MEDIA QUERY - Add here any IE specific fixes */
