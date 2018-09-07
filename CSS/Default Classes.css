@@ -209,8 +209,10 @@ a.button {
 		background-color: #333;
 	}
 	.sidr ul li {
-		border-top: 1px solid;
-		border-bottom: 1px solid;
+		border: none;
+	}
+	.sidr ul li:hover {
+		background-color: #808080;
 	}
 	.sidr ul li:hover > a {
 		box-shadow: none;
