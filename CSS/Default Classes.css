@@ -190,6 +190,12 @@ a.button {
 
 /*------ Background-color panels ------*/
 
+.white-panel {
+	background-color: #fff;
+}
+.grey-panel {
+	background-color: #808080;
+}
 
 
 /*=======FOOTER========*/
@@ -201,6 +207,13 @@ a.button {
 	.sidr {
 		box-shadow: none;
 		background-color: #333;
+	}
+	.sidr ul li {
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+	}
+	.sidr ul li:hover > a {
+		box-shadow: none;
 	}
 } 
 
