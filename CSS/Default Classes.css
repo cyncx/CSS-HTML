@@ -116,7 +116,7 @@ a.menulink, a.menulink:link, a.menulink:active, a.menulink:visited {
 }
 /*=======CONTENT========*/
 
-/*------ General ------*/
+/* General */
 .pagebody {
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -155,7 +155,7 @@ p {
 	color: #000;
 }
 
-/*------ Scrollers ------*/
+/* Scrollers */
 #scroller_956 {
 	width: 100%;
 	height: 400px; 
@@ -168,13 +168,13 @@ p {
 	background: inherit;
 }
 
-/*------ Buttons ------*/
+/* Buttons */
 a.button {
 	padding: 0.7em 2em;
 	display: inline-block;
 }
 
-/*------ Parallax ------*/
+/* Parallax */
 .parallax-wrap {
 	height: 100%;
 	position: relative;
@@ -188,7 +188,7 @@ a.button {
 	z-index: -1;
 }
 
-/*------ Background-color panels ------*/
+/* Background-color panels */
 
 .white-panel {
 	background-color: #fff;
