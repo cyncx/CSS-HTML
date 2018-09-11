@@ -4,54 +4,54 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-.padding20 {
+.pad20 {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-.padding40 {
+.pad40 {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-.padding60 {
+.pad60 {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
-.padding80 {
+.pad80 {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
-.padding100 {
+.pad100 {
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-.padding-top20 {
+.pad-top20 {
 	padding-top: 20px;
 }
-.padding-top40 {
+.pad-top40 {
    padding-top: 40px;
 }
-.padding-top60 {
+.pad-top60 {
 	padding-top: 60px;
 }
-.padding-top80 {
+.pad-top80 {
 	padding-top: 80px;
 }
-.padding-top100 {
+.pad-top100 {
 	padding-top: 100px;
 }
-.padding-bottom20 {
+.pad-bot20 {
 	padding-bottom: 20px;
 }
-.padding-bottom40 {
+.pad-bot40 {
 	padding-bottom: 40px;
 }
-.padding-bottom60 {
+.pad-bot60 {
 	padding-bottom: 60px;
 }
-.padding-bottom80 {
+.pad-bot80 {
 	padding-bottom: 80px;
 }
-.padding-bottom100 {
+.pad-bot100 {
 	padding-bottom: 100px;
 }
 .nopad-left {
@@ -216,6 +216,10 @@ a.button {
 	}
 	.sidr ul li:hover > a {
 		box-shadow: none;
+	}
+	a#menubtn {
+		background-color: #333;
+		top: 10px;
 	}
 } 
 
