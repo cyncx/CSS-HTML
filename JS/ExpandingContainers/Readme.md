@@ -1,4 +1,6 @@
-# HTML
+# Structure and styling for expanding containers
+
+## HTML
 
 Use the following HTML for the structure of expanding boxes in the page
 
@@ -19,6 +21,8 @@ Use the following HTML for the structure of expanding boxes in the page
   </div>
 </div>
 ```
+
+`data-swing` and `data-speed` values should still work even when not using HTML5
 
 ## CSS
 
