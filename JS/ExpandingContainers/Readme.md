@@ -1,4 +1,5 @@
-## HTML
+# HTML
+
 Use the following HTML for the structure of expanding boxes in the page
 
 ```html
@@ -19,7 +20,8 @@ Use the following HTML for the structure of expanding boxes in the page
 </div>
 ```
 
-##CSS
+## CSS
+
 Add the following CSS to stop the text 'popping' when the expanding box opens
 
 ```css
