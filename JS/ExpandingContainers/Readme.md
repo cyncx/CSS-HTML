@@ -32,4 +32,7 @@ Add the following CSS to stop the text 'popping' when the expanding box opens
 .expand-content p {
   margin-top: 0;
 }
+.expand-content {
+  display: none;
+}
 ```
