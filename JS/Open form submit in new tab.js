@@ -1,5 +1,3 @@
-<script>
-    $(document).ready(function () {
-        $(‘#aspnetForm').prop("target", "_blank");
-    });
-</script>
+window.addEventListener('load', function () {
+    document.querySelector('#aspnetForm').setAttribute('target', '_blank');
+});
