@@ -13,7 +13,7 @@ Use the following HTML for the structure of expanding boxes in the page
       Dolore tenderloin leberkas quis. Ground round ipsum est salami nisi. Tongue pancetta eiusmod adipisicing proident ham hock culpa turducken. Frankfurter ham hock labore cupim, qui aute pariatur magna. Fatback eu turducken ham hock, adipisicing flank jowl. Meatloaf in proident sed leberkas, turkey sint irure pastrami nulla aute qui capicola ipsum. Ea pork loin quis et.
     </p>
   </div>
-  <button class="expand-btn" data-ease="swing" data-speed="600">
+  <button class="expand-btn" type="button" data-ease="swing" data-speed="600">
     Read More
   </button>
   <div class="minimize">
